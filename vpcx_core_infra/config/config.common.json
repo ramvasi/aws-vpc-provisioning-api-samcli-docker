@@ -1,0 +1,7 @@
+{
+  "ENVIRONMENT": {
+    "ROLES": {
+      "AWS_ORG_EXECUTION_ROLE_NAME": "OrganizationAccountAccessRole"
+    }
+  }
+}

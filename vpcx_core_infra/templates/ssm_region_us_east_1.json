@@ -1,0 +1,14 @@
+{
+  "master-cidr": {
+    "AWS": {
+      "cidrs": [
+        "192.168.0.0/16"
+      ]
+    }
+  },
+  "tgw-available": false,
+  "service-accounts": {
+    "redshift": "193672423079",
+    "alb": "127311923021"
+  }
+}

@@ -1,0 +1,13 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-docker-app-vpc"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1rl9c"
+s3_prefix = "sam-docker-app-vpc"
+region = "us-west-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "Subnets=\"subnet-0cd12c33f4ca435c0, subnet-0c2c28fb6064cde11\" VpcId=\"vpc-02c5c9737aa7b41df\" StaticCFTemplateBucketName=\"dev-account-provisioning-static-cf-templates-2\" AccountProvisioningMetadataBucketName=\"dev-account-provisioning-vpc-metadata-us-west-2\""
+image_repositories = ["VpcIntegration=146932.dkr.ecr.us-west-2.amazonaws.com/samdockerappvpc81dbd971/vpcintegrationc91c6038repo"]

@@ -1,0 +1,20 @@
+{
+  "DEPLOYMENT": {
+    "ACCOUNT": "itx-062",
+    "ACCOUNT_NUMBER": "371",
+    "SUBNETS": [
+      "subnet-0928f8c9de7cc55a1",
+      "subnet-07b36be9c0dc330a2"
+    ],
+    "SECURITY_GROUPS": [
+      "sg-03dc05f5186de1392"
+    ],
+    "DEPLOYMENT_BUCKET": "aws-sam-cli-managed-default-samclisourcebucket-crs5",
+    "STATIC_CF_TEMPLATE_BUCKET": "dev-account-provisioning-static-cf-templates-si7-us-west-2",
+    "METADATA_TEMPLATE_BUCKET": "dev-account-provisioning-vpc-metadata-si7-us-west-2"
+  },
+  "TESTING": {
+    "TEST_ACCOUNT": "837",
+    "TEST_ACCOUNT_NUMBER": "837"
+  }
+}

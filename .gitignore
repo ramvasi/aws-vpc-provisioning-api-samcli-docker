@@ -1,0 +1,7 @@
+.idea/
+backup/
+.aws-sam/
+node_modules/
+local_commands.txt
+acat_cli_scan
+**/__pycache__
